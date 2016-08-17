@@ -1,7 +1,7 @@
 !function(exports) {
   'use strict';
 
-  exports.uiControlsTheme && LazyLoader.dependencyLoad(exports.uiControlsTheme);
+  exports.uiControlsTheme && LazyLoader.load(exports.uiControlsTheme);
 
 }(this);
 

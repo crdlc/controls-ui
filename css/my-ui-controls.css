@@ -1,0 +1,23 @@
+.stream .toolbar {
+  top: calc(100% - 17px);
+  left: calc(50% - 59px);
+
+  background-color: #2ab4ea;
+  border-radius: 34px;
+  padding: 0 15px;
+}
+
+.stream .toolbar .icon {
+  width: 24px;
+  height: 24px;
+  margin: 5px 10px;
+  padding: 0;
+}
+
+.stream .toolbar .icon.audio:hover {
+  background-image: url("http://opentokdemo.tokbox.com/images/icons/audio.svg");
+}
+
+.stream .toolbar .icon.video:hover {
+  background-image: url("http://opentokdemo.tokbox.com/images/icons/video.svg");
+}
