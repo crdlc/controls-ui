@@ -1,0 +1,45 @@
+.stream .toolbar {
+  list-style: none;
+  margin: 0;
+  font-size: 0;
+
+  position: absolute;
+  top: 30px;
+  left: 30px;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 25px;
+  padding: 0 10px;
+}
+
+.stream .toolbar .icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  padding: 0;
+}
+
+.stream .toolbar .icon:after {
+  content: '';
+  display: none;
+}
+
+.stream .toolbar .icon.audio {
+  background-image: url("http://opentokdemo.tokbox.com/images/icons/audio.svg");
+}
+
+.stream .toolbar .icon.audio:hover, .stream .toolbar .icon.audio:after {
+  background-image: url("http://opentokdemo.tokbox.com/images/icons/audio_hover.svg");
+}
+
+.stream .toolbar .icon.video {
+  background-image: url("http://opentokdemo.tokbox.com/images/icons/video.svg");
+}
+
+.stream .toolbar .icon.video:hover, .stream .toolbar .icon.video:after {
+  background-image: url("http://opentokdemo.tokbox.com/images/icons/video_hover.svg");
+}
